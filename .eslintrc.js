@@ -4,4 +4,7 @@ module.exports = {
   "env": {
     "jest/globals": true,
   },
+  "rules": {
+    "import/no-extraneous-dependencies": "off",
+  },
 };

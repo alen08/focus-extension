@@ -1,0 +1,6 @@
+{
+  "name": "Focus",
+  "version": "0.0.1",
+  "description": "Restricts the usage of certain websites after a given time.",
+  "manifest_version": 2
+}

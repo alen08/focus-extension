@@ -4,9 +4,12 @@ const CopyPlugin = require('copy-webpack-plugin');
 
 module.exports = {
   mode: 'production',
-  entry: './src/index.js',
+  entry: {
+    background: './src/background.js',
+    content: './src/content.js',
+  },
   output: {
-    filename: 'main.[contentHash].js',
+    filename: '[name].js',
     path: path.resolve(__dirname, 'dist'),
   },
   module: {

@@ -5,8 +5,8 @@ const CopyPlugin = require('copy-webpack-plugin');
 module.exports = {
   mode: 'production',
   entry: {
-    background: './src/background.js',
-    content: './src/content.jsx',
+    background: './src/background.ts',
+    content: './src/content.tsx',
   },
   output: {
     filename: '[name].js',
@@ -31,4 +31,7 @@ module.exports = {
       ],
     }),
   ],
+  resolve: {
+    extensions: ['.ts', '.tsx', '.js', '.jsx'],
+  },
 };

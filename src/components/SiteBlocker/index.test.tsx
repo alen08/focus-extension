@@ -1,5 +1,5 @@
 import React from 'react';
-import SiteBlocker from './index';
+import SiteBlocker from '.';
 import { render } from '@testing-library/react';
 
 it('renders without errors', () => {

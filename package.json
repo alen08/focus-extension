@@ -18,7 +18,8 @@
     "build": "webpack",
     "test": "jest",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook -o storybook-static"
+    "build-storybook": "build-storybook -o storybook-static",
+    "prepare": "husky install"
   },
   "license": "ISC",
   "devDependencies": {
@@ -47,7 +48,8 @@
     "eslint-plugin-react-hooks": "^2.5.0",
     "jest": "^26.0.1",
     "webpack": "^4.43.0",
-    "webpack-cli": "^3.3.11"
+    "webpack-cli": "^3.3.11",
+    "husky": "^6.0.0"
   },
   "dependencies": {
     "react": "^16.13.1",
